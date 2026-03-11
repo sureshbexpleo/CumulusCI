@@ -9,6 +9,4 @@ Licensed under the BSD 3-Clause License.
 
 <!-- Changelog -->
 ## Changes from upstream
-- Added feature X
-- Fixed bug Y
-- Improved performance
+- Fixed bug in wait until salesforce is ready keyword
