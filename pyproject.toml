@@ -3,13 +3,13 @@ requires = ["hatchling", "hatch-fancy-pypi-readme"]
 build-backend = "hatchling.build"
 
 [project]
-name = "cumulusci"
+name = "cumulusci-extended"
 dynamic = ["readme", "version"]
-description = "Build and release tools for Salesforce developers"
+description = "Unofficial fork of CumulusCI with bug fixes"
 license = { text = "BSD 3-Clause License" }
 requires-python = ">=3.11"
 authors = [
-    { name = "Salesforce.org", email = "sfdo-mrbelvedere@salesforce.com" },
+    { name = "Suresh Babu", email = "sureshbabu.rajamanickam@expleogroup.com" },
 ]
 keywords = ["cumulusci", "salesforce"]
 classifiers = [
@@ -97,9 +97,9 @@ cci = "cumulusci.cli.cci:main"
 snowfakery = "snowfakery.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/SFDO-Tooling/CumulusCI"
-Changelog = "https://cumulusci.readthedocs.io/en/stable/history.html"
-"Bug Tracker" = "https://github.com/SFDO-Tooling/CumulusCI/issues"
+Homepage = "https://github.com/sureshbexpleo/CumulusCI"
+Changelog = "https://github.com/sureshbexpleo/CumulusCI"
+"Bug Tracker" = "https://github.com/sureshbexpleo/CumulusCI/issues"
 
 [tool.hatch.version]
 path = "cumulusci/__about__.py"
